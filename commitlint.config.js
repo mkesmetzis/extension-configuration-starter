@@ -1,8 +1,4 @@
-/**
- * Created by mkesmetzis 26-Apri-21
- */
-
- module.exports = {
+module.exports = {
   extends: ['@commitlint/config-conventional'],
   plugins: ['commitlint-plugin-function-rules'],
   rules: {
